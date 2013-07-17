@@ -399,6 +399,11 @@
     <copy file="${hive.root}/bin/beeline" todir="${target.bin.dir}"/>
     <copy file="${hive.root}/bin/hiveserver2" todir="${target.bin.dir}"/>
     <copy file="${hive.root}/bin/hive-config.sh" todir="${target.bin.dir}"/>
+    <copy file="${hive.root}/bin/hive.cmd" todir="${target.bin.dir}"/>
+    <copy file="${hive.root}/bin/metatool.cmd" todir="${target.bin.dir}"/>
+    <copy file="${hive.root}/bin/beeline.cmd" todir="${target.bin.dir}"/>
+    <copy file="${hive.root}/bin/hive-config.cmd" todir="${target.bin.dir}"/>
+    <copy file="${hive.root}/bin/hiveserver2.cmd" todir="${target.bin.dir}"/>
     <copy todir="${target.bin.dir}/ext">
       <fileset dir="${hive.root}/bin/ext" excludes="${vcs.excludes}"/>
     </copy>
